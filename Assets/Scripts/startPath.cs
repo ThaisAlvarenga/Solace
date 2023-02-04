@@ -19,6 +19,14 @@ public class startPath : MonoBehaviour
         {
             path.GetComponent<CPC_CameraPath>().PlayPath(time);
         }
+        else if (Input.GetButton("Jump"))
+        {
+            path.GetComponent<CPC_CameraPath>().PlayPath(time);
+        }
+        else if(Input.GetButton("xboxB"))
+        {
+            path.GetComponent<CPC_CameraPath>().StopPath();
+        }
         
     }
 }
