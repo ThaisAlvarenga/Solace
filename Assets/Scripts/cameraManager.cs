@@ -9,9 +9,9 @@ public class cameraManager : MonoBehaviour
     public CinemachineVirtualCamera menuCam;
 
     // get reference of the cameras and save it in variable
-    public CinemachineVirtualCamera introCam;
-    public CinemachineVirtualCamera leftCam;
-    public CinemachineVirtualCamera rightCam;
+    public GameObject introCam;
+    public GameObject leftCam;
+    public GameObject rightCam;
 
 
     // Start is called before the first frame update
@@ -40,10 +40,13 @@ public class cameraManager : MonoBehaviour
     public void goLeft()
     {
         leftCam.gameObject.SetActive(true);
+        introCam.gameObject.SetActive(false);
     }
 
     public void goRight()
     {
         rightCam.gameObject.SetActive(true);
+        introCam.gameObject.SetActive(false);
     }
 }
+

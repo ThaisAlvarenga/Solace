@@ -45,11 +45,4 @@ public class UIManager : MonoBehaviour
 
         Debug.Log("new choice UI is active");
     }
-
-    //hide UI
-    public void hideUI()
-    {
-        left.gameObject.SetActive(false);
-        right.gameObject.SetActive(false);
-    }
 }
