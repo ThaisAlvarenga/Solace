@@ -22,5 +22,6 @@ public class CameraSwitcher : MonoBehaviour
             camera1.gameObject.SetActive(false);
             camera2.gameObject.SetActive(true);
         }
+
     }
 }
