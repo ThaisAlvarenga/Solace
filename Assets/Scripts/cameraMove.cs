@@ -11,6 +11,7 @@ public class cameraMove : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
 
+        //rotate the camera con its horizontal
         transform.Rotate(Vector3.up, horizontal * speed * Time.deltaTime);
 
     }
