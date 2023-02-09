@@ -8,4 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Solace.unity
     guid: 82269d343338baf4987aedc88b155b76
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 135077ae0b411444d8190ab0c7773fef, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 84ad7d276a6ba5641b7a5d41831aab41, type: 2}
