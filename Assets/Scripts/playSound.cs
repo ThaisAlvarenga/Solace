@@ -7,17 +7,17 @@ public class playSound : MonoBehaviour
 {
     public AudioClip sound;
     public float volume;
-    AudioSource audio;
+    AudioSource myaudio;
 
     // Start is called before the first frame update
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        myaudio = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        audio.PlayOneShot(sound, volume);
+        myaudio.PlayOneShot(sound, volume);
         Debug.Log("Sound here");
     }
 }
