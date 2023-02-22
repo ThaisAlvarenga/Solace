@@ -31,20 +31,30 @@ public class cameraManager : MonoBehaviour
         
     }
 
+    /* NOTE ---- I can probably just make a script that activate new camera and deactivates previous cam
+     * That would make the code more clean and reusable
+     */
+
     public void startGame()
     {
         menuCam.gameObject.SetActive(false);
         introCam.gameObject.SetActive(true);
     }
 
-    public void goLeft()
-    {
+    // if player goes left
+    public void GoLeft() 
+    { 
+    
+        //activate the left camera object
         leftCam.gameObject.SetActive(true);
+        //deactivate the intro camera
         introCam.gameObject.SetActive(false);
     }
 
+    //if player goes left 
     public void goRight()
     {
+        //activate the right camera
         rightCam.gameObject.SetActive(true);
         introCam.gameObject.SetActive(false);
     }
