@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Solace.unity
-    guid: 82269d343338baf4987aedc88b155b76
+    path: Assets/Scenes/StoryTest.unity
+    guid: 8dda0410040fcc34fa3d6c9afd3f8b2d
   m_configObjects: {}
