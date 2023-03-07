@@ -2720,9 +2720,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caeffd6a3d336b147b0e71f09f1207c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shakeDuration: 9
+  shakeDuration: 5
   shakeStrength: 0.1
-  mycamera: {fileID: 0}
+  mycamera: {fileID: 1878326412}
 --- !u!114 &1785745873
 MonoBehaviour:
   m_ObjectHideFlags: 0
