@@ -8,4 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StoryTest.unity
     guid: 8dda0410040fcc34fa3d6c9afd3f8b2d
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6bc8087bfe2747348a3dd6b5284efed7, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8d4ec2ddb9f99fc4a85dd5fc78bf56a2, type: 2}
