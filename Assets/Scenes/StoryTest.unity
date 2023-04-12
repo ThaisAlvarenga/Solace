@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.7254902, g: 0.33333334, b: 0.45490196, a: 0.24705882}
+  m_FogColor: {r: 0.7254902, g: 0.33333334, b: 0.45490196, a: 0.19215687}
   m_FogMode: 2
   m_FogDensity: 0.01
   m_LinearFogStart: 0
@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< Updated upstream
   m_IndirectSpecularColor: {r: 0.50496155, g: 0.12486283, b: 0.11454176, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.46158987, g: 0.09091054, b: 0.08386998, a: 1}
+>>>>>>> Stashed changes
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
