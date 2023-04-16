@@ -10,7 +10,6 @@ public class triggerAnimatoin : MonoBehaviour
     void Start()
     {
         newAnimation.SetActive(false);
-        
     }
 
     private void OnTriggerEnter(Collider other)
