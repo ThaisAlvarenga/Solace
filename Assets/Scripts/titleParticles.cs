@@ -38,6 +38,7 @@ public class titleParticles : MonoBehaviour
 
     }
 
+    /*
     private void OnGUI()
     {
         if (GUI.Button(new Rect(10, 5, 130, 35), "Switch Text 1"))
@@ -83,5 +84,5 @@ public class titleParticles : MonoBehaviour
         }
 
 
-    }
+    }*/
 }
