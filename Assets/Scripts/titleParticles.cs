@@ -6,10 +6,14 @@ public class titleParticles : MonoBehaviour
 {
     public TextPhotoParticles particleTextPhoto;
 
+    public GameObject particleText;
+    public float transitionTime = 1.0f;
+
     public string text1;
 
     public bool displayTitle = true;
     public Color textColor;
+
    
 
     Texture2D currentImage = null;
@@ -38,6 +42,35 @@ public class titleParticles : MonoBehaviour
 
     }
 
+    public void reloadCanvas()
+    {
+        StartCoroutine(restartCanvas());
+    }
+
+    public void removeCanva()
+    {
+        StartCoroutine(disperseTitle());
+        
+        Debug.Log("canvas is removed");
+    }
+
+    IEnumerator disperseTitle()
+    {
+        particleTextPhoto.particleMode = TextPhotoParticles.enumParticlesMode.ParticleDisperse;
+
+        yield return new WaitForSeconds(10f);
+
+        particleText.SetActive(false);
+    }
+
+    IEnumerator restartCanvas()
+    {
+        particleTextPhoto.particleMode = TextPhotoParticles.enumParticlesMode.ParticleConverge;
+
+        yield return new WaitForSeconds(10f);
+
+        particleText.SetActive(true);
+    }
     /*
     private void OnGUI()
     {

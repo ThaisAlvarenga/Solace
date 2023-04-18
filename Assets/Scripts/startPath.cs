@@ -1,32 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class startPath : MonoBehaviour
 {
-    public GameObject path;
-    public float time = 10;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public CinemachineDollyCart cart;
+    public float speedIncrement = 0.01f;
+    private float currentSpeed = 0f;
+
+    public void changeCartSpeed()
     {
-        if (Input.GetKeyDown("space"))
+        if (currentSpeed < 0.1f)
         {
-            path.GetComponent<CPC_CameraPath>().PlayPath(time);
+            currentSpeed += speedIncrement * Time.deltaTime;
+            cart.m_Speed = currentSpeed;
         }
-        else if (Input.GetButton("Jump"))
-        {
-            path.GetComponent<CPC_CameraPath>().PlayPath(time);
-        }
-        else if(Input.GetButton("xboxB"))
-        {
-            path.GetComponent<CPC_CameraPath>().StopPath();
-        }
-        
+
+        cart.m_Speed = 0.1f;
     }
 }
