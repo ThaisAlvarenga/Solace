@@ -1,15 +1,21 @@
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cinemachine;
+
 
 public class reloadSceneOnTrigger : MonoBehaviour
 {
     public string sceneName; // Name of the scene to reload
+    public CinemachineDollyCart dollyCart;
 
-    private void OnTriggerEnter(Collider other)
+    void Update()
     {
-        
-        SceneManager.LoadScene(sceneName); // Reload the scene
+        if(dollyCart.m_Position > 30f)
+        {
+            SceneManager.LoadScene(sceneName); // Reload the scene
+        }
+       
         
     }
 }

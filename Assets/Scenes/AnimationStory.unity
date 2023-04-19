@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.53590345, g: 0.19095686, b: 0.17364286, a: 1}
+  m_IndirectSpecularColor: {r: 0.53590435, g: 0.19095737, b: 0.17364337, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5156,7 +5156,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61155748}
   m_LocalRotation: {x: -0, y: 0.7213894, z: -0, w: 0.69252974}
-  m_LocalPosition: {x: 0.71, y: 0.513, z: 5.98}
+  m_LocalPosition: {x: 0.582, y: 0.513, z: 5.987}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1591721027}
@@ -5175,6 +5175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: AnimationStory
+  dollyCart: {fileID: 1190657421}
 --- !u!65 &61155751
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7805,6 +7806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 609635365}
   - component: {fileID: 609635366}
+  - component: {fileID: 609635364}
   m_Layer: 0
   m_Name: CanvaManager
   m_TagString: Untagged
@@ -7812,6 +7814,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &609635364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609635363}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f3d4429b2c9f94c840c8d532087c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dollyCart: {fileID: 1190657421}
+  sceneName: AnimationStory
 --- !u!4 &609635365
 Transform:
   m_ObjectHideFlags: 0
@@ -8208,7 +8224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &710907804
 Transform:
   m_ObjectHideFlags: 0
