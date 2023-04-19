@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819987e1edc943b4fa1b1fbb06080c5b, type: 3}
+  m_Name: Rima_Parents
+  m_EditorClassIdentifier: 
+  HarmonyXMLProjectPath: /Users/thaisalvarenga/Documents/capstone_animations/Rima_ParentsDisappear
+  OutputPath: Assets/Animations/newForMVP/Rima_ParentsDisappear/Rima_ParentsProject.asset
+  GeneratePrefab: 1
+  ExistingPrefab: {fileID: 6668154618024180093, guid: bf9fd6ea092ad49cf936b391a56db677, type: 3}
+  AnimationSettings:
+    FrameRate: 24
+    Stepped: 1
+    StripPrefix: 
+  AnimationFolderName: Animations
