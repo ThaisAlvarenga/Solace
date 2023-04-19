@@ -5156,7 +5156,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61155748}
   m_LocalRotation: {x: -0, y: 0.7213894, z: -0, w: 0.69252974}
-  m_LocalPosition: {x: 0.98, y: 0.513, z: 5.97}
+  m_LocalPosition: {x: 0.71, y: 0.513, z: 5.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1591721027}
@@ -7857,7 +7857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &710907804
 Transform:
   m_ObjectHideFlags: 0
@@ -7866,7 +7866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710907803}
   m_LocalRotation: {x: -0, y: 0.03677239, z: -0, w: -0.99932367}
-  m_LocalPosition: {x: -0.191, y: 0.43, z: 5.715}
+  m_LocalPosition: {x: 0.55, y: 0.43, z: 6.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1591721027}
@@ -7885,7 +7885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prevAnimation: {fileID: 1113782105}
-  newAnimation: {fileID: 1341192611}
+  newAnimation: {fileID: 61155748}
 --- !u!114 &710907806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14295,7 +14295,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190657420}
-  m_LocalRotation: {x: 0, y: 0.7383545, z: 0, w: 0.6744128}
+  m_LocalRotation: {x: 0, y: 0.77249205, z: 0, w: 0.6350245}
   m_LocalPosition: {x: -38.739197, y: 0.6, z: -32.184082}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -20273,14 +20273,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494145025}
-  m_LocalRotation: {x: -0, y: -0.05560609, z: -0, w: 0.9984528}
+  m_LocalRotation: {x: -0, y: -0.0682179, z: -0, w: 0.99767053}
   m_LocalPosition: {x: 0, y: 0, z: -8.59}
   m_LocalScale: {x: 0.08999172, y: 0.10796527, z: 0.13776}
   m_Children:
   - {fileID: 1894910230}
   m_Father: {fileID: 1520859590}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -6.375, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -7.823, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -5.94, y: -38.75}
@@ -20450,7 +20450,7 @@ MonoBehaviour:
     pathColor: {r: 0, g: 1, b: 0, a: 1}
     inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     width: 0.3
-  m_Looped: 1
+  m_Looped: 0
   m_Waypoints:
   - position: {x: -1.8875813, y: 0, z: -1.7541695}
     roll: 0
@@ -20460,9 +20460,9 @@ MonoBehaviour:
     roll: 0
   - position: {x: -4.7465973, y: 0, z: -10.110147}
     roll: 0
-  - position: {x: -5.8669662, y: 0, z: -4.4537373}
+  - position: {x: -6.0853233, y: 0, z: -4.4537373}
     roll: 0
-  - position: {x: -4.482109, y: 0, z: -2.2378788}
+  - position: {x: -2.0440636, y: 0, z: -1.7646198}
     roll: 0
 --- !u!4 &1503053863
 Transform:
@@ -22123,7 +22123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   directionalLight: {fileID: 1872386063}
   rotationSpeed: 0.5
-  cycleDuration: 120
+  cycleDuration: 150
 --- !u!108 &1872386063
 Light:
   m_ObjectHideFlags: 0
